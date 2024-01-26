@@ -1,0 +1,106 @@
+============================================
+                  Apple Store
+              123 Tech Avenue
+             (555) 123-4567
+            applestore@email.com
+
+Receipt Date: January 26, 2024
+Receipt Number: 987654321
+
+Customer Name: John Doe
+Customer Address: 456 City Road, Techville
+Customer Contact: (555) 789-0123
+
+--------------------------------------------
+Item Description            Quantity    Price
+--------------------------------------------
+iPhone 14 Pro               1           $999.00
+
+Subtotal:                               $999.00
+Tax (7.5%):                             $74.93
+--------------------------------------------
+Total:                                  $1073.93
+
+Payment Method: Credit Card
+Card Number: **** **** **** 1234
+
+Thank you for shopping with us!
+
+Apple Store Return Policy:
+- Returns and exchanges are available within 14 days of purchase.
+- Product must be in its original condition.
+- Original receipt required for returns and exchanges.
+
+============================================
+
+
+============================================
+                  Apple Store
+              123 Tech Avenue
+             (555) 123-4567
+            applestore@email.com
+
+Receipt Date: January 26, 2024
+Receipt Number: 123456789
+
+Customer Name: Jane Smith
+Customer Address: 789 Digital Lane, Computertown
+Customer Contact: (555) 987-6543
+
+--------------------------------------------
+Item Description            Quantity    Price
+--------------------------------------------
+MacBook Pro                 1           $1,299.00
+
+Subtotal:                               $1,299.00
+Tax (8%):                               $103.92
+--------------------------------------------
+Total:                                  $1,402.92
+
+Payment Method: Credit Card
+Card Number: **** **** **** 5678
+
+Thank you for shopping with us!
+
+Apple Store Return Policy:
+- Returns and exchanges are available within 14 days of purchase.
+- Product must be in its original condition.
+- Original receipt required for returns and exchanges.
+
+============================================
+
+
+============================================
+                  Apple Store
+              123 Tech Avenue
+             (555) 123-4567
+            applestore@email.com
+
+Receipt Date: January 26, 2024
+Receipt Number: 321654987
+
+Customer Name: Alex Johnson
+Customer Address: 321 Wireless Street, Earbud City
+Customer Contact: (555) 654-3210
+
+--------------------------------------------
+Item Description            Quantity    Price
+--------------------------------------------
+AirPods Pro                 1           $249.00
+
+Subtotal:                               $249.00
+Tax (7%):                               $17.43
+--------------------------------------------
+Total:                                  $266.43
+
+Payment Method: Credit Card
+Card Number: **** **** **** 4321
+
+Thank you for shopping with us!
+
+Apple Store Return Policy:
+- Returns and exchanges are available within 14 days of purchase.
+- Product must be in its original condition.
+- Original receipt required for returns and exchanges.
+
+============================================
