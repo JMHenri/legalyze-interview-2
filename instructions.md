@@ -25,3 +25,5 @@ Format to be used:
     ]
 }
 ```
+
+Use the `data.txt` file for context to provide to the AI.
