@@ -1,6 +1,6 @@
 import re
 
-def parse_receipt_data(text):
+def parse_fulltext_receipt_data(text):
     # Split the text into individual receipts, removing empty strings resulting from split
     receipts = [receipt.strip() for receipt in text.strip().split('============================================') if receipt.strip()]
 
