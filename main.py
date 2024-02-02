@@ -1,10 +1,6 @@
 from dotenv import load_dotenv
 load_dotenv()
-import httpx
-import asyncio
 import os
-import json
-import openai
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -30,19 +26,18 @@ parsed_data = parse_fulltext_receipt_data(text_data)
 llm = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model=OPENAI_MODEL)
 llm_with_tools = llm.bind_tools([format_openai_receipt_response], tool_choice="format_openai_receipt_response")
 
-# Create a prompt
-prompt = ChatPromptTemplate.from_messages([
-    ("system", "You parse receipts."),
-    ("assistant", "Oh. My. God. 🤖"),
-    ("user", "{input}")
-])
 
-# Chain the prompt and the LLM
-chain = prompt | llm_with_tools
-res = chain.invoke({"input": parsed_data[0]})
+receipt_chains = {}
+for i, data in enumerate(parsed_data, start=1):
+    chain_key = f'receiptChain{i}'
+    receipt_chains[chain_key] = ChatPromptTemplate.from_messages([
+        ("system", "Please parse the given receipt so that it is usable in the provided function."),
+        ("user", data)
+    ]) | llm_with_tools
 
-# create runnable parallels
-runnable = RunnableParallel()
+map_chain = RunnableParallel(**receipt_chains)
+
+res = map_chain.invoke({"input": ''})
 
 # Print the result
 print(res)
